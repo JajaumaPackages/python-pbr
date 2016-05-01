@@ -1,5 +1,3 @@
-%include python-fedora-compat.macros
-
 %global pypi_name pbr
 
 %if 0%{?fedora}
@@ -22,9 +20,8 @@ Source0:        http://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_nam
 
 BuildArch:      noarch
 
-
-
-BuildRequires: python-sphinx >= 1.1.3
+BuildRequires:  python-rpm-macros
+BuildRequires:  python-sphinx >= 1.1.3
 
 
 %description
