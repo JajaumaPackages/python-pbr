@@ -1,3 +1,5 @@
+%include python-fedora-compat.macros
+
 %global pypi_name pbr
 
 %if 0%{?fedora}
